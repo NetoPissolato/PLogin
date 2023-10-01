@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLogin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="portal">
+        <form action="#">
+            <div class="title">
+                <h1>Login</h1>
+                <p>Bem vindo de volta! Por favor insira seus dados.</p>
+            </div>
+            <button id="google-signin">
+                <img src="assets/google-logo.svg" alt="">
+                Faça login com o Google
+            </button>
+            <span>ou</span>
+            <div class="input-field">
+                <input type="text" id="username" placeholder=" ">
+                <label for="username">Usuario</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" placeholder=" ">
+                <label for="password">Senha</label>
+                <img id="show-hide-pass" src="assets/show-eye.svg" alt="">
+            </div>
+            <a href="#" id="forgot-pass">Esqueceu a senha</a>
+            <button id="signin">Entrar</button>
+            <p id="signup">
+                Não possui uma conta?
+                <a href="#">Registrar</a>
+            </p>
+        </form>
+    </section>
+</body>
+</html>
